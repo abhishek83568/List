@@ -4,6 +4,20 @@ The **List APP** is a frontend application built with **ReactJS**. It provides f
 
 ---
 
+##Homepage
+
+![Image](https://github.com/user-attachments/assets/9fd7100c-d312-41f3-8533-fa8a401c0533)
+
+![Image](https://github.com/user-attachments/assets/7ae0fdf3-3a19-40f9-97f2-73cff54174cd)
+
+![Image](https://github.com/user-attachments/assets/936f49b7-c7ab-45a6-8cc3-1783c0705326)
+
+
+![Image](https://github.com/user-attachments/assets/e553b623-2bed-42d7-9169-a7ad4584f8cd)
+
+
+---
+
 ## Features
 
 - **Rows**: User can add new rows as per the requirements.
