@@ -1,0 +1,176 @@
+/* @import "tailwindcss"; */
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 5px;
+}
+
+.t-container {
+  padding: 1.5rem;
+}
+
+.t-wrapper {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #d3d3d3;
+  border-radius: 0.25rem;
+}
+
+.table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.t-head-row {
+  background-color: #f0f0f0;
+}
+
+.t-head {
+  padding: 0.75rem;
+  border: 1px solid #d3d3d3;
+}
+
+.column-one {
+  width: 33.33%;
+}
+
+.t-row {
+  border-top: 1px solid #d3d3d3;
+}
+
+.t-data {
+  padding: 0.75rem;
+  border: 1px solid #d3d3d3;
+}
+
+.addRow-btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.75rem;
+}
+
+.addSelect-container {
+  position: relative;
+}
+
+.addSelect-display {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.addSelect-options {
+  flex-grow: 1;
+}
+
+.addSelect-option-tag {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  background-color: #f0f0f0;
+  color: #4a4a4a;
+}
+
+.addSelect-remove-option {
+  margin-left: 0.25rem;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.addSelect-dropdown {
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 0.25rem;
+  padding: 0.5rem;
+  z-index: 10;
+}
+
+.addSelect-option-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25rem;
+  padding: 0.25rem 0;
+}
+
+.addSelect-option-label span {
+  margin-left: 0.5rem;
+}
+
+.addSelect-add-new {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.addSelect-btn {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  background-color: #000000;
+  cursor: pointer;
+}
+
+.select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+}
